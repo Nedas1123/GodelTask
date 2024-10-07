@@ -6,21 +6,21 @@ This is a simple REST API for shortening URLs, similar to Bitly
 Helps with making those long and boring urls look short, nice and easy to share
 
 ## List of Features:
-Shorten long URLs.
-Retrieve shortened URLs.
-Error handling for invalid URLs.
-Prevent duplicate URLs from being saved.
+- Shorten long URLs.
+- Retrieve shortened URLs.
+- Error handling for invalid URLs.
+- Prevent duplicate URLs from being saved.
 
 ## Technologies Used:
-Programming Language: Java.
-Framework: Spring Boot.
-Dependencies: apache.commons,org.springframework.boot.
+- Programming Language: Java.
+- Framework: Spring Boot.
+- Dependencies: apache.commons,org.springframework.boot.
 
 ## Installation:
-Prerequisites: Java version 17, Maven version 3 
-Installation Steps:
-Clone the repository:
-git clone <repository-url>
+- Prerequisites: Java version 17, Maven version 3 
+- Installation Steps:
+- Clone the repository:
+- git clone <repository-url>
 Navigate to the project directory:
 cd <project-directory>
 Build the project using Maven:
