@@ -21,26 +21,26 @@ Helps with making those long and boring urls look short, nice and easy to share
 - Installation Steps:
 - Clone the repository:
 - git clone <repository-url>
-Navigate to the project directory:
-cd <project-directory>
-Build the project using Maven:
-mvn clean install
-Run the application:
-mvn spring-boot:run
+- Navigate to the project directory:
+- cd <project-directory>
+- Build the project using Maven:
+- mvn clean install
+- Run the application:
+- mvn spring-boot:run
 
 ## Usage:
-Save Short URL:
-Endpoint: POST /api/shorten
-Request Body:
-Plain text
-Response: Returns the shortened URL.
-Get Short URL:
-Endpoint: GET /api/getShortUrl
-Parameters: url (the original URL).
-Response: Returns the shortened URL if it exists.
+- Save Short URL:
+- Endpoint: POST /api/shorten
+- Request Body:
+- Plain text
+- Response: Returns the shortened URL.
+- Get Short URL:
+- Endpoint: GET /api/getShortUrl
+- Parameters: url (the original URL).
+- Response: Returns the shortened URL if it exists.
 
-## Error Handling
-Common Error Responses:
-Invalid URL format.
-URL already exists.
-URL not found.
+## Error Handling:
+- Common Error Responses:
+- Invalid URL format.
+- URL already exists.
+- URL not found.
